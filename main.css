@@ -211,7 +211,7 @@ footer {
 
 .features {
   background-color: #fff;
-  padding: 115px 60px;
+  padding: 115px 60px;  
 }
 
 .cards {
@@ -374,6 +374,13 @@ footer {
   margin-left: 5px;
 }
 
+.orb-canvas {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
 @media (max-width: 720px) {
   .header__logo {
     height: 20px;
@@ -388,6 +395,7 @@ footer {
   }
 
   .about {
+    position: relative;
     flex-direction: column-reverse;
   }
 
