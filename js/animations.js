@@ -74,6 +74,6 @@ function addSmoothScroll(anchor) {
    
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     addSmoothScroll(anchor);
-  });
+  });   
 
   addSmoothScroll(document.querySelector('.more-button'));

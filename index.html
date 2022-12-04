@@ -11,7 +11,7 @@
   <header class="header__scrolled">
     <img class="header__logo" src='img/logo.svg'>
     <div class="header__controls">
-      <a href="#contacts">Контакты</a>
+      <a href="#form">Контакты</a>
       <button>Заказать</button>
     </div>
   </header>
@@ -27,7 +27,7 @@
         <img class="about__image" src="img/solar-panel.png">
     </div>
   </section>
-  <section class="features">
+  <section class="features" id="features">
    <div class="cards">
     <div class="card"><div class="card__logo color1"><i class="fa-solid fa-solar-panel"></i></div>
       <h3>Уменьшите счета за электричество</h3>
@@ -91,7 +91,7 @@
       </div>
     </div>
   </section>
-  <section class="form">
+  <section class="form" id="form">
     <div class="form__container">
       <h1>Оставьте свои контакты</h1>
       <p>Поможем подобрать модель.
@@ -109,8 +109,8 @@
           <label for="phone">Номер телефона</label>
           <input type="phone" placeholder="7(999)999-99-99" id="phone">
           <label for="budget">Примерный бюджет</label>
-          <select id="budget" name="Выберите вариант">
-            <option selected disabled>Выберите вариант</option>
+          <select id="budget">
+            <option>Выберите вариант</option>
             <option value="10-30">10 000Р - 30 000Р</option>
             <option value="30-60">30 000Р - 60 000Р</option>
             <option value="60-100">60 000Р - 100 000Р</option>
